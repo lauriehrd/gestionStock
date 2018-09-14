@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <script src="https://use.fontawesome.com/f66664ac40.js"></script>
+  </head>
+
+  <body>
+  	<header>
+  		<div class="titre">
+	  		<h1>Ila</h1>
+	  		<h2>Clothing</h2>
+  		</div>
+  		<div class="acc">
+  			<div>
+  			  	<img src="assets/img/photo5.jpeg">
+  			 </div>
+  			 <div class="ident">
+	  			<input type="text" name="" required="required" placeholder="Identifiant"></input>
+	  			<input type="text" name="password" required="required" placeholder="Mot de passe"></input>
+	  			<input type="submit" class="btn" value="Connexion"></input>
+  			</div>
+  		</div>
+  	</header>
+  	<section class="pageprincipale">
+<!--   		<div>
+  			<img src="assets/img/storage.png"></p>
+  		</div> -->
+  		<h3>Ila <span>Clothing</span></h3>
+  		<div>
+  			<input type="text" placeholder="Ref produit">
+  			<input type="text" placeholder="Nom produit">
+  			<input type="submit" class="btn" value="Rechercher"></input>
+  		</div>
+  		<div class="add">
+<!--   			<img class="icon1" src="assets/img/plus1.png"></img> -->
+  		</div>
+  		<table id="tableau">
+        <thead>
+            <tr>
+                <th>Ref prod.</th>
+                <th>Nom prod.</th>
+                <th>Quantité</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="ref-1">
+                <td class="td-1"></td>
+                <td class="td-2"></td>
+                <td class="td-4"></td>
+        </tr>
+        <tr id="ref-2">
+                <td class="td-1"></td>
+                <td class="td-2"></td>
+                <td class="td-4"></td>
+            </tr>
+        <tr id="ref-3">
+          <td class="td-1"></td>
+          <td class="td-2"></td>
+          <td class="td-4"></td>
+        </tr>
+        <tr id="ref-4">
+          <td class="td-1"></td>
+          <td class="td-2"></td>
+          <td class="td-4"></td>
+        </tr>
+        </tbody>
+    </table>
+  		
+  	</section>
+  	<section class="ficheprod">
+		<div>
+			<p>Nom produit : <input type="text" disabled="disabled"></p>
+			<p>Réf : <input type="text" disabled="disabled"></p>
+			<p>Couleur : <input type="text" disabled="disabled"></p>
+			<p>Taille : <input type="text" disabled="disabled"></p>
+			<p>Quantité : <input type="text" disabled="disabled"></p>
+		</div>  
+		<div class="ficheimg">
+			<img src="">
+			<textarea rows="8" cols="50" disabled="disabled">Description : </textarea>
+		</div>		
+
+  	</section>
+  	<section class="ficheprodmodif">
+  		<div>
+			<p>Nom produit : <input type="text" disabled="disabled"></p>
+			<p>Réf : <input type="text" disabled="disabled"></p>
+			<p>Couleur : <input type="text" disabled="disabled"></p>
+			<p>Taille : <input type="text" disabled="disabled"></p>
+			<p>Quantité : <input type="text" disabled="disabled"></p>
+		</div>  
+		<div class="ficheimg">
+			<img src="">
+			<textarea rows="8" cols="50" disabled="disabled">Description : </textarea>
+		</div>
+		<div class="ficheprodstock">
+			<input type="number" name="quantity" min="1" max="10000" required="required" placeholder="Qté">
+		</div>
+		<div class="ficheprodstockvalid">
+			<input class="ad" type="submit" value="Ajouter">
+			<input class="red" type="submit" value="Retirer">
+		</div>	
+  	</section>
+  	<section class="achatcaisse">
+  		<div>
+  			<input type="text" placeholder="Référence">
+  		</div>
+  		<div>
+  			<input class="ad" type="submit" value="Achat en caisse">
+  		</div>
+  		
+  	</section>
+  	<section class="tab2">
+  		<table id="tableau">
+        <thead>
+            <tr>
+                <th>Nom prod.</th>
+                <th>Couleur</th>
+                <th>Taille</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="ref-1">
+                <td class="td-1"></td>
+                <td class="td-2"></td>
+                <td class="td-4"></td>
+                <td><button>Voir</button></td>
+        	</tr>
+        <tr id="ref-2">
+                <td class="td-1"></td>
+                <td class="td-2"></td>
+                <td class="td-4"></td>
+                <td><button>Voir</button></td>
+            </tr>
+        <tr id="ref-3">
+          <td class="td-1"></td>
+          <td class="td-2"></td>
+          <td class="td-4"></td>
+          <td><button>Voir</button></td>
+        </tr>
+        <tr id="ref-4">
+          <td class="td-1"></td>
+          <td class="td-2"></td>
+          <td class="td-4"></td>
+          <td><button>Voir</button></td>
+        </tr>
+        </tbody>
+    </table>
+  	</section>
+  </body>
+  </html>

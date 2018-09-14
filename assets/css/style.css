@@ -1,0 +1,313 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header{
+
+	height: 100vh;
+	width: 100vw;
+/*	background-color: #f7f0e1;	*/
+}
+
+h1 {
+
+	padding-left: 1rem;
+}
+
+h2{
+
+	color: #aa8b41;
+}
+
+h1, h2{
+
+	text-align: left;
+	font-size: 27px;
+	font-family: 'Lato', sans-serif;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+.titre{
+
+	padding: 1rem;
+}
+
+.acc{
+	
+	text-align: center;
+}
+
+.acc img{
+
+/*	height: 150px;
+	width: 150px;*/
+	position: relative;
+	bottom: 2rem;
+	left: 10rem;
+	float: left;
+	overflow: hidden;
+	height: 90vh;
+	width:37vw;
+
+}
+
+.ident input{
+	 height: 40px;
+	 margin-left: 176px;
+	 border: 1px solid #aa8b41;
+	 width: 200px;
+	 position: relative;
+	 bottom: 30rem;
+
+
+}
+
+input{
+		height: 40px;
+	 border: 1px solid #aa8b41;
+	 width: 200px;
+	 text-align: center;
+	 display: block;
+	 margin: 2rem;
+}
+
+.ident{
+
+	border: 1px solid;
+
+}
+/*
+.acc p {
+	 position: relative;
+	 right: 6rem;
+
+
+}
+*/
+.acc .btn {
+
+/*	background-color: green;*/
+	height: 40px;
+	width: 200px;
+	letter-spacing: 1px;
+	margin-top: 10rem;
+	font-family: 'Lato', sans-serif;
+	border:1px solid;
+	position: relative;
+	right: 5rem;
+	background-color: #aa8b41;
+	color: white;
+}
+
+div .ident{
+
+	border:1px solid #aa8b41;
+	width: 40vw;
+    position: relative;
+    left: 48rem;
+    height: 80vh;
+
+}
+
+.btn:hover{
+
+	background-color: black;
+	color: white;
+	
+}
+
+.add{
+
+	float: right;
+	padding-right: 4rem;
+}
+
+.pageprincipale{
+
+	height: auto;
+	text-align: center;
+	padding-top: 7rem;
+	margin-top: 8rem;
+
+}
+
+.pageprincipale input{
+
+	text-align: center;
+	position: relative;
+	left: 37rem;
+}
+
+
+.pageprincipale .btn{
+
+	position: relative;
+	left: 1px;
+	top: 2rem;
+	background-color:#aa8b41;
+	color: white;
+	height: 40px;
+	width: 150px;
+}
+
+.pageprincipale .btn:hover{
+
+	background-color: black;
+	color: white;
+
+}
+
+h3{
+	text-align: center;
+	position: relative;
+	bottom: 7rem;
+	font-family: 'Lato', sans-serif;
+}
+
+h3 span{
+	color: #aa8b41;
+}
+
+table{
+
+  width: 90vw;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+
+th{
+
+  text-transform: uppercase;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: lightgray;
+  text-align: center;
+}
+
+th{
+
+  padding: 13px;
+
+}
+
+td{
+
+  padding: 5px;
+  border:1px solid;
+  font-size: 15px;
+  height: 40px;
+}
+
+button{ 
+
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.ficheprod, .ficheprodmodif{
+
+	margin-top: 10rem;
+	height: 100vh;
+	text-align: center;
+}
+
+.ficheprod div, .ficheprodmodif div{
+
+	display: flex;
+
+}
+
+
+.ficheprod input, .ficheprod textarea, .ficheprodmodif input, .ficheprodmodif textarea{
+
+	background-color: beige;
+	opacity: 0.5;
+}
+
+.ficheprod img, .ficheprodmodif img{
+
+	border:1px solid beige;
+	height: 200px;
+	width: 200px;
+}
+
+.ficheimg{
+	margin-left: 27rem;
+	margin-top: 4rem;
+	padding: 2rem;
+}
+
+.ficheprodstock input{
+
+	background-color: white;
+	border-color: black;
+	opacity: none;
+	margin-left: 37rem;
+	margin-top: 7rem;
+}
+
+.ficheprodstockvalid input{
+
+	margin-left: 20rem;
+	background-color: #aa8b41;
+	opacity: 1;
+	color: white;
+
+}
+
+.ficheprodstockvalid input:hover{
+
+
+	background-color: black;
+	color: white;
+}
+
+.ficheprodstockvalid .ad:hover, .achatcaisse .ad:hover{
+
+
+	background-color: green;
+	color: white;
+}
+
+.ficheprodstockvalid .red:hover{
+
+
+	background-color: red;
+	color: white;
+}
+
+.achatcaisse{
+
+	margin-top:18rem;
+	margin-left: 35rem;
+	height: 100vh;
+	text-align: center;
+
+}
+
+
+.achatcaisse .ad{
+
+	float: right;
+	margin-top: 19rem;	
+
+}
+
+.tab2{
+	height: 100vh;
+	margin-top: 10rem;
+}
+
+td button{
+
+	float: right;
+    position: relative;
+    right: 4rem;
+    cursor: pointer;
+}
+
+
